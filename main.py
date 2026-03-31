@@ -3,7 +3,7 @@ from googleapiclient.discovery import build
 import time
 
 #1 초기 설정
-api_key = "YOUR_YOUTUBE_API_KEY"
+api_key = "AIzaSyArDfm80h8ZQPqwS2ypvQZWX73BOhDNsKQ"
 youtube = build('youtube', 'v3', developerKey=api_key)
 
 #2 키워드 로드 함수

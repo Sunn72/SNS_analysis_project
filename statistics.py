@@ -23,7 +23,7 @@ def run_statistics():
             "중앙값 조회수": int(data['view_count'].median()),
             "최대 조회수": int(data['view_count'].max()),
             "평균 좋아요": int(data['like_count'].mean()),
-            "평균 댓글": int(data['commit_count'].mean())
+            "평균 댓글": int(data['comment_count'].mean())
         }
     
     #4 결과 출력
